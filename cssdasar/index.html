@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>latihan css</title>
+    <!-- external css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- internal css -->
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+        /* bintang berarti universal,atau utk mengatur secara keseluruham */
+        *{
+            font-size: 20px;
+            border: 1px solid grey;
+        }
+        body {
+            background-color: #1b1b1b;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700    ;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+        }
+        .text-green{
+            color: greenyellow;
+        }
+        #judul{
+            color: red;
+        }
+        input[type=text]{
+            background: red;
+            color: white;
+        }
+        input[type=password]{
+            background: yellow;
+            color: blue;
+        }
+        p:hover{
+            color: white !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Belajar CSS</h1>
+    <!-- inline css -->
+    <p style="color: azure;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo unde reprehenderit, in
+        inventore nam saepe
+        modi tempore accusamus eveniet ut corrupti hic officia corporis, dignissimos ad sed provident? Aut,
+        perspiciatis.</p>
+
+ <!-- warna abu dan justify -->
+    <p class="text-green" id="judul">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, consequuntur magni! Commodi, ullam. Nisi
+        suscipit aut laudantium ullam alias, ut amet iure earum repudiandae aliquid recusandae sunt. Doloribus, magni
+        fugiat!
+    </p>
+    <!-- class utk mendefinisikan salah satu atau bbrp elemen
+    id sama seperti class..bedanya class bisa dipakai di banyak elemen
+    dan id hanya bisa satu elemen saja -->
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime rerum libero dicta id, mollitia minus aliquam
+        vel nisi laudantium similique omnis placeat, recusandae cumque distinctio voluptate amet delectus dignissimos.
+        Aliquid vero beatae obcaecati, deserunt delectus ratione molestias blanditiis iure suscipit ducimus dolorum
+        
+    </p>
+    <input type="text" name="" id="">
+    <input type="password" name="" id="">
+
+</body>
+
+</html>
